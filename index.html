@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Form</title>
+</head>
+<body>
+  <h1>Place Your Order</h1>
+  <form action="http://localhost:3000/submit-order" method="POST">
+    <label>Full Name: <input name="name" required></label><br><br>
+    <label>Email: <input type="email" name="email" required></label><br><br>
+    <label>Product:
+      <select name="product">
+        <option value="widget">Widget</option>
+        <option value="gadget">Gadget</option>
+      </select>
+    </label><br><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
